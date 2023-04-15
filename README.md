@@ -1,2 +1,2 @@
 # car-store
-https://github.com/MatheusRibeiroAlves/car-store.git
+ criação de uma aplicação Web utilizando Java
