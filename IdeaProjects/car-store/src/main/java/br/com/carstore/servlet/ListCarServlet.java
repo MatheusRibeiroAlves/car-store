@@ -16,8 +16,8 @@ public class ListCarServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        List<Car> allCars = new CarDAO().findAllCars();
-        req.setAttribute("cars", allCars);
+        List<Car> cars = new CarDAO().findAllCars();
+        req.setAttribute("cars", cars);
         req.getRequestDispatcher("dashboard.jsp").forward(req,resp);
     }
 }
